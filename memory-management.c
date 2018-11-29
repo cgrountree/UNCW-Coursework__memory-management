@@ -1,3 +1,8 @@
+#include <stdlib.h>
+#include "memory.h"
+#include "queueLibrary.h"
+
+
 char *toString(FRAME *f)
 {
     static char result[BUFSIZ];
